@@ -1,0 +1,140 @@
+
+body{
+    background-color:white;
+    background: cover;
+ }
+
+ .page{
+    height: 100%;
+}
+.row{
+margin-right:0px;
+margin-left:0px;
+
+}
+ 
+ .firstRow{
+    justify-content: center;
+    background-color: rgb(62, 107, 204);
+    color: white;
+    padding:1.5%;
+    width:100%;
+ }
+
+ h1{
+    font-size: 60px;
+    font-weight: bolder;
+}
+#searchSection{
+    background-color: white;
+    padding:1%;
+    height: 80vh;
+}
+
+::placeholder {
+    font-size: 20px;
+}
+
+.form-control {
+   height:calc(2.5em + .75rem + 2px)
+}
+  
+#forecastSection{
+    background-color: rgb(248, 248, 248);
+    height: 80vh;
+}
+
+.mainRowStyle {
+    height:100%;
+    padding:1.5%;
+}
+
+#listOfCities{
+    padding:1%;
+    font-size: 20px;
+}
+
+.weatherRow{
+    margin: 2%;
+    border-style: solid;
+    border-width: 2px;
+    border-color: lightgrey;
+    height: 50vh;
+    background-color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.forecastRow{ 
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding: 1%;
+}
+
+.cardBody{
+    background-color: rgb(62, 107, 204);
+    padding:10%;
+    margin: auto;
+    height: 30vh;
+    border-style: solid;
+    border-width: 5px;
+    border-color: lightgray;
+}
+
+.bigIcon{
+  width:100px;
+  background-image:url(assets/cloud.png);
+  border-radius: 10px;
+  margin-top: 2%;
+}
+
+@media only screen and (max-width: 800px) {
+
+h1{
+margin:5%;
+
+}
+
+.cardBody{
+margin: 1%;
+font-size: 10px;
+padding:5%;
+
+}
+
+.weatherRow{
+    margin: 2%;
+    border-style: solid;
+    border-width: 2px;
+    border-color: lightgrey;
+    height: 80vh;
+    background-color: white;
+    font-weight: bold;
+    font-size: 20px;
+    
+}
+
+#searchSection{
+    background-color: white;
+    padding:1%;
+    height: auto;
+}
+
+.form-control {
+    height:calc(2.5em + .75rem + 2px)
+ }
+
+ul{
+margin:5%;
+}
+
+#cityInput{
+    margin-left:21px;
+}
+
+.input-group-text{
+    margin-right:21px;
+}
+
+}
